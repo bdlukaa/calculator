@@ -20,9 +20,9 @@ The app was only tested on Android, but it's supposed to work on Ios and Web too
      <td>Special</td>
   </tr>
   <tr>
-    <td><img src="screenshots/home.png" width=300 height=480></td>
-    <td><img src="screenshots/history.png" width=300 height=480></td>
-    <td><img src="screenshots/special.png" width=300 height=480></td>
+    <td><img src="screenshots/home.jpg" width=300 height=480></td>
+    <td><img src="screenshots/history.jpg" width=300 height=480></td>
+    <td><img src="screenshots/special.jpg" width=300 height=480></td>
   </tr>
 </table>
 <table>
@@ -31,8 +31,8 @@ The app was only tested on Android, but it's supposed to work on Ios and Web too
     <td>BMI Result</td>
   </tr>
   <tr>
-    <td><img src="screenshots/bmi_home.png" width=300 height=480></td>
-    <td><img src="screenshots/bmi_info.png" width=300 height=480></td>
+    <td><img src="screenshots/bmi_home.jpg" width=300 height=480></td>
+    <td><img src="screenshots/bmi_info.jpg" width=300 height=480></td>
   </tr>
 </table>
 <table>
@@ -42,9 +42,9 @@ The app was only tested on Android, but it's supposed to work on Ios and Web too
     <td>Theme</td>
   </tr>
   <tr>
-    <td><img src="screenshots/settings.png" width=300 height=480></td>
-    <td><img src="screenshots/language.png" width=300 height=480></td>
-    <td><img src="screenshots/theme.png" width=300 height=480></td>
+    <td><img src="screenshots/settings.jpg" width=300 height=480></td>
+    <td><img src="screenshots/language.jpg" width=300 height=480></td>
+    <td><img src="screenshots/theme.jpg" width=300 height=480></td>
   </tr>
 </table>
 
