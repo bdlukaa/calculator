@@ -137,4 +137,9 @@ abstract class Language {
   String get today;
   String get yesterday;
 
+  String get authKeyError;
+  String get swapCurrencies;
+  String get convert;
+  String get currenciesConverter;
+
 }

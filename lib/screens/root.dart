@@ -1,10 +1,12 @@
 import 'package:calculator/langs/lang.dart';
 import 'package:calculator/screens/settings/settings_home.dart';
+// import 'package:calculator/screens/unities_converter/unities_converter.dart';
 import 'package:calculator/widget/zoomed_scaffold.dart';
 import 'package:flutter/material.dart';
 
 import '../theme_manager.dart';
 import 'basic_calculator/calculator.dart';
+import 'currency_converter/converter.dart';
 import 'imc/imc_calculator.dart';
 
 class Root extends StatefulWidget {
@@ -31,7 +33,7 @@ class _RootState extends State<Root> with TickerProviderStateMixin {
       menuScreen: SettingsHome(),
       shadowColor: ThemeManager.isBright(context) ? null : Colors.white10,
       contentScreen: DefaultTabController(
-        length: 2,
+        length: 3,
         child: Scaffold(
           appBar: AppBar(
             leading: IconButton(
@@ -39,18 +41,15 @@ class _RootState extends State<Root> with TickerProviderStateMixin {
               onPressed: () => controller.toggle(),
             ),
             title: Text(lang.calculator),
-            // actions: [
-            //   IconButton(
-            //     icon: Icon(Icons.favorite),
-            //     onPressed: () => controller.toggleEnd(),
-            //   ),
-            // ],
             centerTitle: true,
             elevation: 0,
             bottom: TabBar(
+              isScrollable: true,
               tabs: [
                 Tab(text: lang.basic),
                 Tab(text: lang.bmi),
+                Tab(text: lang.currenciesConverter),
+                // Tab(text: 'Unities converter'),
               ],
             ),
           ),
@@ -67,6 +66,8 @@ class _RootState extends State<Root> with TickerProviderStateMixin {
                 children: [
                   Calculator(),
                   IMCCalculator(),
+                  Converter(),
+                  // UnitiesConverter(),
                 ],
               ),
             ),

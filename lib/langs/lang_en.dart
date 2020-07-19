@@ -104,4 +104,10 @@ class English extends Language {
   String get currentExpression => 'Current expression';
   String get today => 'Today';
   String get yesterday => 'Yesterday';
+
+  String get authKeyError => 'Auth key missing!\nAdd your key at models/currencies';
+  String get swapCurrencies => 'Swap currencies';
+  String get convert => 'Convert';
+  String get currenciesConverter => 'Currencies converter';
+
 }

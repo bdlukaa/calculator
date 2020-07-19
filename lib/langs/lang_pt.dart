@@ -103,4 +103,10 @@ class Portuguese extends Language {
   String get currentExpression => 'Expressão atual';
   String get today => 'Hoje';
   String get yesterday => 'Ontem';
+
+  String get authKeyError => 'Chave de autenticação faltando!\nAdicione sua chave em models/currencies';
+  String get swapCurrencies => 'Trocar moeda';
+  String get convert => 'Converter';
+  String get currenciesConverter => 'Conversor de moeda';
+  
 }
