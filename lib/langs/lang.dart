@@ -142,4 +142,6 @@ abstract class Language {
   String get convert;
   String get currenciesConverter;
 
+  String get checkConnection;
+
 }

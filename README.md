@@ -4,8 +4,9 @@ A calculator made in flutter.
 
 ## Features
 
-Basic expressions.
+Basic math expressions.
 BMI calculation.
+Currencies converter.
 
 ## Platforms
 
@@ -45,6 +46,16 @@ The app was only tested on Android, but it's supposed to work on Ios and Web too
     <td><img src="screenshots/settings.jpg" width=300 height=480></td>
     <td><img src="screenshots/language.jpg" width=300 height=480></td>
     <td><img src="screenshots/theme.jpg" width=300 height=480></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td>Currencies converter home</td>
+    <td>Currencies converter auth key error</td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/currencies_converter_home.jpg" width=300 height=480></td>
+    <td><img src="screenshots/currencies_converter_error.jpg" width=300 height=480></td>
   </tr>
 </table>
 

@@ -2,9 +2,9 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 // TODO: don't forget to remove yours if you're gonna publish it
-// Put here your key
 // Get your key at:
 // https://www.currencyconverterapi.com/
+// Put here your key
 String currencyKey;
 
 class Currency {
@@ -18,7 +18,8 @@ class Currency {
       // dynamic from = map['${toISO}_$iso'];
       return _to;
     } else {
-      return 0;
+      print(result.body); // error
+      return null;
     }
     // return null;+
   }

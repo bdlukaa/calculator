@@ -3,6 +3,7 @@ import 'package:calculator/models/currencies.dart';
 import 'package:flutter/material.dart';
 
 import '../../theme_manager.dart';
+import 'package:flutter_styled_toast/flutter_styled_toast.dart';
 
 class Converter extends StatefulWidget {
   Converter({Key key}) : super(key: key);
@@ -90,6 +91,12 @@ class _ConverterState extends State<Converter>
                   onPressed: () async {
                     setState(() => _loading = true);
                     currentValue = await Currency.to(fromISO, toISO);
+                    if (currentValue == null) {
+                      showToast(
+                        lang.checkConnection,
+                        context: context,
+                      );
+                    }
                     setState(() => _loading = false);
                   },
                 ),

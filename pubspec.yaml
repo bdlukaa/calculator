@@ -21,6 +21,7 @@ dependencies:
   path: 
   snapping_sheet: ^2.0.0
   http: ^0.12.2
+  flutter_styled_toast: ^1.3.2
 
 dev_dependencies:
   flutter_test:

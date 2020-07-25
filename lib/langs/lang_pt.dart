@@ -108,5 +108,7 @@ class Portuguese extends Language {
   String get swapCurrencies => 'Trocar moeda';
   String get convert => 'Converter';
   String get currenciesConverter => 'Conversor de moeda';
+
+  String get checkConnection => 'Um erro ocorreu! Cheque sua conexão';
   
 }

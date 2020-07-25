@@ -110,4 +110,6 @@ class English extends Language {
   String get convert => 'Convert';
   String get currenciesConverter => 'Currencies converter';
 
+  String get checkConnection => 'An error occurred! Check your connection';
+
 }
